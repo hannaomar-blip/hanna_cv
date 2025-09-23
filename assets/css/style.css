@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:400,600");
+
+/* Base */
+body {
+  font-family: 'Poppins', 'Lato', sans-serif;
+  background: #fdfdff;
+  color: #444;
+  line-height: 1.7;
+}
+
+/* Navbar */
+.page-navbar.navbar {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-bottom: none;
+}
+
+.page-navbar .logo {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff !important;
+}
+
+.page-navbar .navbar-nav .nav-item a {
+  font-weight: 500;
+  color: #fff !important;
+  transition: opacity 0.3s ease;
+}
+
+.page-navbar .navbar-nav .nav-item a:hover {
+  opacity: 0.85;
+}
+
+.gradient {
+  background: linear-gradient(120deg, #a18cd1, #fbc2eb, #a1c4fd);
+  color: #fff !important;
+}
+
+/* Intro */
+.cv-block.block-intro {
+  text-align: center;
+}
+
+.cv-block.block-intro p {
+  font-size: 1.3em;
+  font-weight: 300;
+  color: #555;
+  margin-top: 20px;
+}
+
+.cv-block.block-intro .avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #fbc2eb;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.cv-block.block-intro .btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  border: none;
+  background: #a18cd1;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.cv-block.block-intro .btn:hover {
+  background: #fcbad3;
+  color: #fff;
+}
+
+/* Sections */
+.cv-block {
+  padding: 80px 0;
+}
+
+.cv-block.info h2 {
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #444;
+}
+
+/* Work/Education items */
+.cv-block.info .group .item {
+  margin-bottom: 30px;
+}
+
+.cv-block.info .group .organization {
+  background-color: #a1c4fd;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 15px;
+  font-size: 0.85em;
+}
+
+.cv-block.info .education.group .organization {
+  background-color: #fcbad3;
+}
+
+/* Cards */
+.cv-block .info-card {
+  padding: 30px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+  margin-bottom: 30px;
+}
+
+.cv-block .info-card h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.cv-block .info-card.skills h3 {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Progress bars */
+.cv-block .info-card.skills .progress {
+  height: 8px;
+  border-radius: 10px;
+  background: #f3f3f3;
+  margin-bottom: 15px;
+}
+
+.cv-block .info-card.skills .progress-bar {
+  border-radius: 10px;
+  background: linear-gradient(90deg, #a18cd1, #fbc2eb);
+}
+
+/* Contact info icons */
+.cv-block .info-card.contact-info .icon {
+  font-size: 1.4em;
+  color: #a18cd1;
+}
+
+/* Hobbies */
+.cv-block.info .hobbies p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1em;
+  color: #666;
+}
+
+/* Footer */
+.page-footer {
+  background: #fdfdff;
+  padding: 30px 0;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.page-footer .social-icons a {
+  font-size: 18px;
+  margin: 0 5px;
+  color: #fff;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  display: inline-block;
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.page-footer .social-icons a:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
+
+/* Responsive tweaks */
+@media (min-width: 768px) {
+  .cv-block {
+    padding: 100px 0;
+  }
+}
