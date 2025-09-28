@@ -1,214 +1,205 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CV - Hanna Omar</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  </head>
-  <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark page-navbar gradient">
-      <div class="container">
-        <a class="navbar-brand logo" href="#">My CV</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" 
-          data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item item">
-              <a class="nav-link" href="#work-experience">Work Experience</a>
-            </li>
-            <li class="nav-item item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item item">
-              <a class="nav-link" href="#hobbies">Hobbies</a>
-            </li>
-          </ul>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CV — Hanna Omar</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header-top" role="banner">
+    <div class="header-inner">
+      <div class="header_logotype_container">
+        <img src="assets/img/header-pic.jpg" alt="Hanna small" class="header_img">
+        <div class="header_title_wrap">
+          <h1 class="logotype_name">Hanna <span class="purple">Omar</span></h1>
+          <h2 class="logotype_occupation">IT Student at MSU-GenSan</h2>
         </div>
       </div>
-    </nav>
 
-    <main class="page cv-page">
-      <!-- Intro -->
-      <section class="cv-block block-intro border-bottom">
-        <div class="container text-center">
-          <div class="avatar mx-auto">
-            <img class="img-fluid rounded-circle" src="/Users/precyabreaomar/Downloads/hanna_cv/assets/img/avatar.jpg" alt="Hanna">
-          </div>
-          <p><strong>Are you all write?</strong> 
-            Hey! I am <strong>Hanna Omar</strong>, an IT student at MSU-General Santos. 
-            I have a passion for writing, design, and continuous learning, with experience 
-            in content writing and ESL tutoring.</p>
-          <a href="mailto:hanna.omar@email.com" class="btn btn-outline-primary">Hire Me</a>
-        </div>
-      </section>
+      <nav class="header_menu_container" role="navigation" aria-label="Main navigation">
+        <ul class="header_menu">
+          <li><a href="#section1">Profile</a></li>
+          <li><a href="#section2">Education</a></li>
+          <li><a href="#section2">Skills</a></li>
+          <li><a href="#section3">Work</a></li>
+          <li><a href="#section3">Hobbies</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-      <!-- Info Section -->
-      <section class="cv-block info">
-        <div class="container">
-          
-          <!-- Work Experience -->
-          <div class="work-experience group" id="work-experience">
-            <h2 class="text-center">Work Experience</h2>
+  <!-- MAIN -->
+  <main id="main_container">
 
-            <div class="item">
-              <div class="row">
-                <div class="col-md-6">
-                  <h3>English Second Language Tutor</h3>
-                  <h4 class="organization">ESL Website</h4>
-                </div>
-                <div class="col-md-6 text-md-right">
-                  <time class="period">2025 - </time>
-                </div>
-              </div>
-              <p class="text-muted">Tutoring foreign adults how to naturally 
-                communicate in English for casual and business-related purposes.</p>
-            </div>
+    <!-- SECTION 1 (Profile) -->
+    <section id="section1" class="page-section fade-in">
+      <div class="content_wrapper profile_section">
 
-            <div class="item">
-              <div class="row">
-                <div class="col-md-6">
-                  <h3>English Second Language Tutor</h3>
-                  <h4 class="organization">Engoo</h4>
-                </div>
-                <div class="col-md-6 text-md-right">
-                  <time class="period">2022 - 2025</time>
-                </div>
-              </div>
-              <p class="text-muted">Tutored English learners worldwide, helping with 
-                conversational fluency, grammar, and comprehension.</p>
-            </div>
-
-            <div class="item">
-              <div class="row">
-                <div class="col-md-6">
-                  <h3>Content Writer</h3>
-                  <h4 class="organization">The Writers' Block PH</h4>
-                </div>
-                <div class="col-md-6 text-md-right">
-                  <time class="period">2022 - 2023</time>
-                </div>
-              </div>
-              <p class="text-muted">Produced creative and informative articles on 
-                various topics for publication and online platforms.</p>
-            </div>
+        <!-- LEFT: avatar + social under it -->
+        <aside id="left_col" aria-label="Profile column">
+          <div class="profile_frame hover-card">
+            <img src="assets/img/avatar.jpg" alt="Hanna Omar" class="profile_picture">
+            <a class="btn hire-me hover-card" href="mailto:hanna.omar@msugensan.edu.ph">Hire Me</a>
           </div>
 
-          <!-- Education -->
-          <div class="education group" id="education">
-            <h2 class="text-center">Education</h2>
+          <div class="social_column_under hover-card" aria-label="Social links">
+            <h3 class="mini-title">Connect</h3>
+            <ul class="social_icons">
+              <li><a class="btn social small" href="https://www.facebook.com/annah.ramo/" target="_blank" rel="noopener">FB</a></li>
+              <li><a class="btn social small" href="https://www.youtube.com/channel/UCfkXDY7vwkcJ8ddFGz8KusA" target="_blank" rel="noopener">TW</a></li>
+              <li><a class="btn social small" href="https://ph.linkedin.com/in/hanna-omar-60322a234" target="_blank" rel="noopener">IN</a></li>
+            </ul>
+          </div>
+        </aside>
 
-            <div class="item">
-              <div class="row">
-                <div class="col-md-6">
-                  <h3>Bachelor of Science in Information Technology</h3>
-                  <h4 class="organization">Mindanao State University - General Santos</h4>
-                </div>
-                <div class="col-md-6 text-md-right">
-                  <time class="period">2022 - 2026</time>
-                </div>
-              </div>
-              <p class="text-muted">Currently pursuing a degree in Information Technology with a focus on 
-                systems integration, networking, and emerging technologies.</p>
+        <!-- RIGHT: profile + hello + contact -->
+        <div id="content_container">
+
+          <!-- Profile block -->
+          <article class="block hover-card" id="profile-block">
+            <h1 class="section-title">Profile</h1>
+            <blockquote class="profile_quote">
+              <p>I do not find studying new material daunting — with resources, I’m eager to learn and apply knowledge to showcase my skills and determination. Putting in the work through researching is a necessity for any working individual.</p>
+            </blockquote>
+          </article>
+
+          <!-- Hello (fixed width) + Contact (right column) -->
+          <div class="hello_contact_group">
+
+            <div class="hello_content hover-card" aria-live="polite">
+              <h2>Hello!</h2>
+              <p id="typing" class="typing"></p>
             </div>
 
-            <div class="item">
-              <div class="row">
-                <div class="col-md-6">
-                  <h3>Humanities and Social Sciences (HUMSS)</h3>
-                  <h4 class="organization">STI College</h4>
-                </div>
-                <div class="col-md-6 text-md-right">
-                  <time class="period">2020 - 2022</time>
-                </div>
+            <div class="contact_right">
+              <div class="contact_details_content hover-card">
+                <h3>Contact</h3>
+                <p class="label">Phone</p>
+                <p class="value">+63 1101 0101 1001</p>
+                <p class="label">Email</p>
+                <p class="value"><a href="mailto:hanna.omar@email.com">hanna.omar@msugensan.edu.ph</a></p>
+                <p class="label">Address</p>
+                <p class="value">Koronadal, Soccsksargen, Philippines</p>
               </div>
-              <p class="text-muted">Completed senior high school under the HUMSS strand, 
-                with emphasis on critical thinking, communication, and social sciences.</p>
+
+              
             </div>
+
+          </div><!-- /.hello_contact_group -->
+
+        </div><!-- /#content_container -->
+
+      </div><!-- /.content_wrapper -->
+    </section>
+
+    <!-- SECTION 2 (Education + Skills) -->
+    <section id="section2" class="page-section fade-in">
+      <div class="content_wrapper two_col">
+
+        <article class="section-block block hover-card alt">
+          <h2 class="section-title">Education</h2>
+          <div class="section-logos">
+            <img src="assets/img/education1.jpg" alt="edu1" class="logo-small">
+            <img src="assets/img/education2.jpg" alt="edu2" class="logo-small">
+            <img src="assets/img/education3.jpg" alt="edu3" class="logo-small">
           </div>
 
-          <!-- Skills + Contact -->
-          <div class="group" id="skills">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="skills info-card">
-                  <h2>Skills</h2>
-                  <h3>Writing & Communication</h3>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:95%"></div>
-                  </div>
-                  <h3>Graphic Design</h3>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:85%"></div>
-                  </div>
-                  <h3>Web Development Basics</h3>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:75%"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-6">
-                <div class="contact-info info-card">
-                  <h2>Contact Info</h2>
-                  <div class="row">
-                    <div class="col-1"><i class="ion-android-calendar icon"></i></div>
-                    <div class="col-9"><span>July 11</span></div>
-                  </div>
-                  <div class="row">
-                    <div class="col-1"><i class="ion-person icon"></i></div>
-                    <div class="col-9"><span>Hanna Omar</span></div>
-                  </div>
-                  <div class="row">
-                    <div class="col-1"><i class="ion-ios-telephone icon"></i></div>
-                    <div class="col-9"><span>+63 1101 0101 0010</span></div>
-                  </div>
-                  <div class="row">
-                    <div class="col-1"><i class="ion-at icon"></i></div>
-                    <div class="col-9"><span>hanna.omar@msugensan.edu.ph</span></div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="item">
+            <h3>Bachelor of Science in Information Technology <span class="year-bubble">2022 - 2026</span></h3>
+            <p>Mindanao State University - General Santos</p>
           </div>
 
-          <!-- Hobbies -->
-          <div class="hobbies group" id="hobbies">
-            <h2 class="text-center">Hobbies</h2>
-            <p class="text-center text-muted">
-              I enjoy writing, reading and discovering fascinating ideas, exploring new technology, 
-              and continuously learning about IT integration in daily life. I also like reading 
-              and playing JRPGs.
-            </p>
+          <div class="item">
+            <h3>Humanities and Social Sciences (HUMSS) <span class="year-bubble">2020 - 2022</span></h3>
+            <p>STI College</p>
           </div>
-        </div>
-      </section>
 
-      <!-- Footer -->
-      <footer class="page-footer">
-        <div class="container">
-          <div class="social-icons">
-            <a href="https://www.facebook.com/share/17EFwSd5d9/" target="_blank">
-              <i class="ion-social-facebook" title="Facebook"></i></a>
-            <a href="https://www.instagram.com/hhhonor11?igsh=cGJzMmt4aHJpY3Ax" target="_blank">
-              <i class="ion-social-instagram-outline" title="Instagram"></i></a>
-            <a href="https://ph.linkedin.com/in/hanna-omar-60322a234" target="_blank">
-              <i class="ion-social-twitter" title="Twitter"></i></a>
+          <div class="item">
+            <h3>Al Ain Juniors School</h3>
+            <p>Al-Ain City, UAE — Elementary School</p>
           </div>
-        </div>
-      </footer>
-    </main>
-  </body>
+        </article>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <article class="section-block block hover-card">
+          <h2 class="section-title">Skills</h2>
+          <div class="section-logos">
+            <img src="assets/img/skills1.jpg" alt="sk1" class="logo-small">
+            <img src="assets/img/skills2.jpg" alt="sk2" class="logo-small">
+            <img src="assets/img/skills3.jpg" alt="sk3" class="logo-small">
+          </div>
+
+          <div class="item">
+            <h3>Writing & Communication <span class="skill-bubble excellent">Excellent</span></h3>
+            <p class="desc">Clear, concise writing for articles and ESL tutoring.</p>
+          </div>
+
+          <div class="item">
+            <h3>Graphic Design <span class="skill-bubble advanced">Advanced</span></h3>
+            <p class="desc">Visual composition basics, banners, and simple layouts.</p>
+          </div>
+
+          <div class="item">
+            <h3>Web Development Basics <span class="skill-bubble intermediate">Intermediate</span></h3>
+            <p class="desc">HTML/CSS and some JavaScript fundamentals.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3 (Work + Hobbies) -->
+    <section id="section3" class="page-section fade-in">
+      <div class="content_wrapper two_col">
+
+        <article class="section-block block hover-card alt">
+          <h2 class="section-title">Work Experience</h2>
+          <div class="section-logos">
+            <img src="assets/img/work1.jpg" alt="w1" class="logo-small">
+            <img src="assets/img/work2.jpg" alt="w2" class="logo-small">
+          </div>
+
+          <div class="item">
+            <h3>English Second Language Tutor <span class="year-bubble">2022 - 2025</span></h3>
+            <p>Engoo — Tutored learners worldwide in conversational fluency, grammar, and comprehension.</p>
+          </div>
+
+          <div class="item">
+            <h3>Content Writer <span class="year-bubble">2022 - 2023</span></h3>
+            <p>The Writers' Block PH — Produced creative and informative articles for online platforms.</p>
+          </div>
+        </article>
+
+        <article class="section-block block hover-card">
+          <h2 class="section-title">Hobbies</h2>
+          <div class="section-logos">
+            <img src="assets/img/hobbies1.jpg" alt="hb1" class="logo-small">
+            <img src="assets/img/hobbies2.jpg" alt="hb2" class="logo-small">
+            <img src="assets/img/hobbies3.jpg" alt="hb3" class="logo-small">
+            <img src="assets/img/hobbies4.jpg" alt="hb4" class="logo-small">
+          </div>
+
+          <p>I enjoy writing, reading, exploring new technology, and continuously learning about IT integration in daily life. I also like JRPGs and creative projects.</p>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <p class="footer_name">Hanna Omar — CV</p>
+  </footer>
+
+  <!-- Scripts -->
   <script src="assets/js/script.js"></script>
+</body>
 </html>
